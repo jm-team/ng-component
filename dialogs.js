@@ -91,9 +91,9 @@ Dialogs.prototype.modal = function(config){
     });
     return self.creatHTML(config)
   }).then(function(data){
-    if(!self.element){
+    // if(!self.element){
       self.render(data,config)
-    }
+    // }
   })
 
   scope.ok = function($event){
